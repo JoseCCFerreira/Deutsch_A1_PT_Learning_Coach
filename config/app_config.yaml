@@ -1,0 +1,17 @@
+app:
+  name: Deutsch A1 PT Learning Coach
+  interface_language: pt-PT
+  target_language: de
+  level: A1
+  default_user: Carlos
+learning:
+  mastery_threshold_good: 80
+  mastery_threshold_weak: 50
+  weak_area_mix: 0.7
+  new_content_mix: 0.3
+audio:
+  provider: gtts
+  language_code: de
+translation:
+  offline_first: true
+  allow_external_provider: false

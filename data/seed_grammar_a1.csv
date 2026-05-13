@@ -1,0 +1,24 @@
+topic_name,explanation_pt,examples_de,examples_pt,level,difficulty
+Alfabeto e pronúncia,"O alemão usa o alfabeto latino, mas tem sons como ä, ö, ü, ch, sch e ei.","Ich; Schule; Haus","eu; escola; casa",A1,1
+Pronomes pessoais,"Os pronomes indicam quem faz a ação: ich, du, er, sie, es, wir, ihr, sie, Sie.","Ich lerne Deutsch.; Wir wohnen in Braga.","Eu estudo alemão.; Nós moramos em Braga.",A1,1
+Verbo sein,"sein significa ser ou estar. É irregular e muda com a pessoa.","Ich bin Carlos.; Du bist müde.; Er ist aus Portugal.","Eu sou o Carlos.; Tu estás cansado.; Ele é de Portugal.",A1,1
+Verbo haben,"haben significa ter. É essencial para frases A1.","Ich habe Zeit.; Du hast ein Buch.; Wir haben Hunger.","Tenho tempo.; Tu tens um livro.; Temos fome.",A1,1
+Verbos regulares no presente,"A maioria dos verbos recebe terminações: ich -e, du -st, er/sie -t, wir -en.","Ich lerne.; Du lernst.; Er lernt.","Eu aprendo.; Tu aprendes.; Ele aprende.",A1,1
+Verbos irregulares comuns,"Alguns verbos mudam a vogal: sprechen -> du sprichst, essen -> du isst.","Ich spreche Deutsch.; Du sprichst Portugiesisch.","Eu falo alemão.; Tu falas português.",A1,2
+Artigos der die das,"Os nomes alemães têm género: der masculino, die feminino, das neutro. Deve aprender o artigo com a palavra.","der Bahnhof; die Straße; das Haus","a estação; a rua; a casa",A1,2
+ein eine,"ein/eine significam um/uma. Usam-se conforme género e caso.","Das ist ein Tisch.; Das ist eine Tasche.","Isto é uma mesa.; Isto é uma mala.",A1,1
+nicht e kein,"nicht nega verbos/adjetivos/frases. kein nega nomes com artigo indefinido.","Ich komme nicht.; Ich habe kein Auto.","Eu não venho.; Eu não tenho carro.",A1,2
+Ordem das palavras,"Em frases simples, o verbo conjugado costuma ficar na posição 2.","Ich komme aus Portugal.; Heute lerne ich Deutsch.","Eu venho de Portugal.; Hoje estudo alemão.",A1,2
+Perguntas sim/não,"Para perguntas sim/não, o verbo vem no início.","Kommst du aus Portugal?; Lernst du Deutsch?","Vens de Portugal?; Estudas alemão?",A1,1
+Perguntas W,"Perguntas com wer, was, wo, woher, wohin, wann, wie, warum pedem informação específica.","Wo wohnst du?; Wie heißt du?","Onde moras?; Como te chamas?",A1,1
+Nominativo,"O nominativo marca o sujeito da frase: quem faz ou é algo.","Der Mann ist hier.; Die Frau lernt.","O homem está aqui.; A mulher aprende.",A1,2
+Acusativo introdução,"O acusativo aparece no objeto direto. Artigo masculino muda de der para den.","Ich sehe den Bahnhof.; Ich kaufe einen Apfel.","Vejo a estação.; Compro uma maçã.",A1,3
+Plural,"O plural alemão tem várias formas. É melhor aprender com cada palavra.","das Haus - die Häuser; der Name - die Namen","a casa - as casas; o nome - os nomes",A1,2
+Possessivos,"mein, dein, sein, ihr indicam posse e concordam com o nome.","Mein Name ist Carlos.; Deine Tasche ist blau.","O meu nome é Carlos.; A tua mala é azul.",A1,2
+Modal können,"können significa poder/conseguir e usa outro verbo no infinitivo no fim.","Ich kann Deutsch sprechen.","Eu consigo falar alemão.",A1,2
+Modal müssen,"müssen significa ter de. O segundo verbo fica no infinitivo no fim.","Ich muss arbeiten.","Eu tenho de trabalhar.",A1,2
+Modal möchten,"möchten significa gostaria e é útil para pedir coisas com educação.","Ich möchte Wasser.; Ich möchte zahlen.","Gostaria de água.; Gostaria de pagar.",A1,1
+Verbos separáveis,"Alguns verbos separam o prefixo, que vai para o fim da frase.","Ich stehe um sieben Uhr auf.","Eu levanto-me às sete horas.",A1,3
+Preposições básicas,"in, aus, nach, mit, für, ohne ajudam a construir frases simples.","Ich wohne in Braga.; Ich komme aus Portugal.","Moro em Braga.; Venho de Portugal.",A1,1
+Horas e tempo,"Para horas usa-se Uhr. Para rotina: am Morgen, am Abend, heute, morgen.","Es ist acht Uhr.; Heute arbeite ich.","São oito horas.; Hoje trabalho.",A1,1
+Forma polite Sie,"Sie é a forma formal para falar com desconhecidos ou em contexto profissional.","Wie heißen Sie?; Wo wohnen Sie?","Como se chama?; Onde mora?",A1,1

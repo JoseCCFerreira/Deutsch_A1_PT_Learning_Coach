@@ -1,0 +1,9 @@
+lesson_id,exercise_type,prompt_pt,prompt_de,correct_answer,options,explanation_pt,grammar_topic,vocabulary_topic,difficulty
+1,multiple_choice,O que significa Hallo?,Hallo,olá,"olá|adeus|obrigado|água",Hallo significa olá.,Frases simples,cumprimentos,1
+2,multiple_choice,Como se diz obrigado em alemão?,,danke,"bitte|danke|Tschüss|Hallo",danke significa obrigado.,Frases simples,cumprimentos,1
+3,fill_blank,Completa: Ich ____ Carlos.,Ich ____ Carlos.,bin,"bin|bist|ist|sind",Com ich usa-se bin.,Verbo sein,pessoal,1
+4,translation_pt_de,Traduz: Eu venho de Portugal.,,Ich komme aus Portugal.,"",A estrutura é ich komme aus + país.,Preposições básicas,países,1
+5,translation_pt_de,Traduz: Eu moro em Braga.,,Ich wohne in Braga.,"",Para dizer onde moras usa ich wohne in.,Preposições básicas,cidade,1
+6,multiple_choice,Qual é o pronome para eu?,,ich,"du|ich|wir|Sie",ich significa eu.,Pronomes pessoais,pronomes,1
+7,multiple_choice,Qual é o artigo de Haus?,Haus,das,"der|die|das",Haus é neutro: das Haus.,Artigos der die das,casa,1
+8,order_words,Ordena: aus / Portugal / komme / ich,,Ich komme aus Portugal.,"aus|Portugal|komme|ich",Em frase normal o verbo fica na posição 2.,Ordem das palavras,países,2

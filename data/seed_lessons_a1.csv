@@ -1,0 +1,17 @@
+module,title_de,title_pt,description_pt,level,order_index,skill_focus,grammar_focus,vocabulary_topic
+Módulo 1,Erste Schritte,Alfabeto e sons,Aprende os sons básicos do alemão e como ler palavras simples.,A1,1,ouvir,Alfabeto e pronúncia,cumprimentos
+Módulo 1,Begrüßungen,Cumprimentos,Aprende a dizer olá adeus obrigado e por favor.,A1,2,falar,Frases simples,cumprimentos
+Módulo 1,Ich heiße,Apresentar-se,Aprende a dizer o teu nome e perguntar o nome de outra pessoa.,A1,3,falar,Verbo sein,pessoal
+Módulo 2,Woher kommst du,Origem e país,Aprende a dizer de onde és e a perguntar origem.,A1,4,falar,Perguntas W,países
+Módulo 2,Wo wohnst du,Onde vivo,Aprende a dizer onde moras.,A1,5,falar,Preposições básicas,cidade
+Módulo 3,Personalpronomen,Pronomes pessoais,Aprende ich du er sie wir ihr Sie.,A1,6,gramática,Pronomes pessoais,pronomes
+Módulo 3,Sein und haben,Ser estar e ter,Aprende os verbos sein e haben no presente.,A1,7,gramática,Verbo sein,verbos
+Módulo 3,Satzbau,Frases simples,Aprende a ordem básica das palavras em alemão.,A1,8,escrita,Ordem das palavras,base
+Módulo 4,Familie,Família,Aprende palavras para família e frases simples.,A1,9,leitura,Possessivos,família
+Módulo 4,Berufe,Trabalho e profissões,Aprende profissões e como dizer o que fazes.,A1,10,falar,Verbos regulares no presente,profissões
+Módulo 5,Essen und Trinken,Comida e bebida,Aprende a pedir comida e bebida.,A1,11,ouvir,Modal möchten,comida
+Módulo 5,Preise,Números e preços,Aprende números e frases de compra.,A1,12,falar,Perguntas W,números
+Módulo 6,In der Stadt,Na cidade,Aprende lugares na cidade.,A1,13,leitura,Artigos der die das,cidade
+Módulo 6,Wegbeschreibung,Direções,Aprende esquerda direita e em frente.,A1,14,ouvir,Forma polite Sie,direções
+Módulo 7,Tagesroutine,Rotina diária,Aprende verbos e horários do dia a dia.,A1,15,escrita,Horas e tempo,tempo
+Módulo 8,A1 Wiederholung,Revisão A1,Pratica tudo com exercícios mistos.,A1,16,misto,Ordem das palavras,base

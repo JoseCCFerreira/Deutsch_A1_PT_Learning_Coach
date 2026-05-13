@@ -1,0 +1,244 @@
+german,portuguese,article,plural,word_type,topic,level,example_de,example_pt,pronunciation_hint,difficulty
+Hallo,olá,,,phrase,cumprimentos,A1,Hallo Carlos.,Olá Carlos.,há-lo,1
+Guten Morgen,bom dia,,,phrase,cumprimentos,A1,Guten Morgen Anna.,Bom dia Anna.,gú-ten mór-guen,1
+Guten Abend,boa noite,,,phrase,cumprimentos,A1,Guten Abend Herr Silva.,Boa noite Senhor Silva.,gú-ten á-bent,1
+Tschüss,adeus,,,phrase,cumprimentos,A1,Tschüss bis morgen.,Adeus até amanhã.,tchüss,1
+bitte,por favor,,,adverb,cumprimentos,A1,Ein Wasser bitte.,Uma água por favor.,bí-te,1
+danke,obrigado,,,adverb,cumprimentos,A1,Danke sehr.,Muito obrigado.,dán-ke,1
+Name,nome,der,Namen,noun,pessoal,A1,Mein Name ist Carlos.,O meu nome é Carlos.,ná-me,1
+Alter,idade,das,,noun,pessoal,A1,Mein Alter ist dreißig.,A minha idade é trinta.,ál-ter,1
+kommen,vir,,,verb,pessoal,A1,Ich komme aus Portugal.,Eu venho de Portugal.,kó-men,1
+wohnen,morar,,,verb,cidade,A1,Ich wohne in Braga.,Eu moro em Braga.,vó-nen,1
+sein,ser/estar,,,verb,verbos,A1,Ich bin Carlos.,Eu sou o Carlos.,zain,1
+haben,ter,,,verb,verbos,A1,Ich habe Zeit.,Eu tenho tempo.,há-ben,1
+ich,eu,,,pronoun,pronomes,A1,Ich lerne Deutsch.,Eu aprendo alemão.,ich,1
+du,tu,,,pronoun,pronomes,A1,Du bist nett.,Tu és simpático.,du,1
+er,ele,,,pronoun,pronomes,A1,Er kommt aus Berlin.,Ele vem de Berlim.,êa,1
+sie,ela/eles,,,pronoun,pronomes,A1,Sie wohnt hier.,Ela mora aqui.,zi,1
+wir,nós,,,pronoun,pronomes,A1,Wir lernen Deutsch.,Nós aprendemos alemão.,via,1
+ihr,vós,,,pronoun,pronomes,A1,Ihr seid müde.,Vós estais cansados.,ia,1
+Sie,o senhor/a senhora,,,pronoun,pronomes,A1,Wie heißen Sie?,Como se chama?,zi,1
+Deutschland,Alemanha,das,,noun,países,A1,Deutschland ist groß.,A Alemanha é grande.,dóitch-lant,1
+Portugal,Portugal,das,,noun,países,A1,Portugal ist schön.,Portugal é bonito.,por-tu-gal,1
+Spanien,Espanha,das,,noun,países,A1,Spanien ist nah.,A Espanha é perto.,shpá-ni-en,1
+Frankreich,França,das,,noun,países,A1,Frankreich ist interessant.,A França é interessante.,frank-raich,1
+Familie,família,die,Familien,noun,família,A1,Meine Familie ist klein.,A minha família é pequena.,fa-mí-li-e,1
+Mutter,mãe,die,Mütter,noun,família,A1,Meine Mutter ist nett.,A minha mãe é simpática.,mú-ter,1
+Vater,pai,der,Väter,noun,família,A1,Mein Vater arbeitet.,O meu pai trabalha.,fá-ter,1
+Bruder,irmão,der,Brüder,noun,família,A1,Mein Bruder heißt João.,O meu irmão chama-se João.,brú-der,1
+Schwester,irmã,die,Schwestern,noun,família,A1,Meine Schwester lernt.,A minha irmã aprende.,shvés-ter,1
+Kind,criança/filho,das,Kinder,noun,família,A1,Das Kind spielt.,A criança brinca.,kint,1
+Freund,amigo,der,Freunde,noun,pessoas,A1,Mein Freund ist hier.,O meu amigo está aqui.,froint,1
+Freundin,amiga,die,Freundinnen,noun,pessoas,A1,Meine Freundin ist da.,A minha amiga está ali.,froin-din,1
+Lehrer,professor,der,Lehrer,noun,profissões,A1,Der Lehrer spricht Deutsch.,O professor fala alemão.,lê-rer,1
+Lehrerin,professora,die,Lehrerinnen,noun,profissões,A1,Die Lehrerin erklärt.,A professora explica.,lê-re-rin,1
+Arzt,médico,der,Ärzte,noun,profissões,A1,Der Arzt arbeitet heute.,O médico trabalha hoje.,artst,2
+Ärztin,médica,die,Ärztinnen,noun,profissões,A1,Die Ärztin ist freundlich.,A médica é simpática.,értstin,2
+Ingenieur,engenheiro,der,Ingenieure,noun,profissões,A1,Er ist Ingenieur.,Ele é engenheiro.,in-ge-ni-ör,2
+Data Analyst,analista de dados,der,Data Analysts,noun,profissões,A1,Ich arbeite als Data Analyst.,Eu trabalho como analista de dados.,dei-ta á-na-list,2
+arbeiten,trabalhar,,,verb,profissões,A1,Ich arbeite in Braga.,Eu trabalho em Braga.,ár-bai-ten,1
+lernen,aprender,,,verb,escola,A1,Ich lerne Deutsch.,Eu aprendo alemão.,lér-nen,1
+sprechen,falar,,,verb,verbos,A1,Ich spreche Portugiesisch.,Eu falo português.,shpré-chen,2
+trinken,beber,,,verb,comida,A1,Ich trinke Wasser.,Eu bebo água.,trín-ken,1
+essen,comer,,,verb,comida,A1,Ich esse Brot.,Eu como pão.,é-sen,1
+Wasser,água,das,,noun,comida,A1,Ich trinke Wasser.,Eu bebo água.,vá-ser,1
+Brot,pão,das,Brote,noun,comida,A1,Das Brot ist frisch.,O pão é fresco.,brot,1
+Kaffee,café,der,Kaffees,noun,comida,A1,Der Kaffee ist heiß.,O café está quente.,ká-fe,1
+Tee,chá,der,Tees,noun,comida,A1,Ich trinke Tee.,Eu bebo chá.,tê,1
+Milch,leite,die,,noun,comida,A1,Die Milch ist kalt.,O leite está frio.,milch,1
+Apfel,maçã,der,Äpfel,noun,comida,A1,Ich esse einen Apfel.,Eu como uma maçã.,áp-fel,1
+Banane,banana,die,Bananen,noun,comida,A1,Die Banane ist gelb.,A banana é amarela.,ba-ná-ne,1
+Suppe,sopa,die,Suppen,noun,comida,A1,Die Suppe ist warm.,A sopa está quente.,zú-pe,1
+Reis,arroz,der,,noun,comida,A1,Ich esse Reis.,Eu como arroz.,rais,1
+Fisch,peixe,der,Fische,noun,comida,A1,Der Fisch ist gut.,O peixe é bom.,fish,1
+Fleisch,carne,das,,noun,comida,A1,Das Fleisch ist teuer.,A carne é cara.,flaish,1
+Gemüse,legumes,das,,noun,comida,A1,Gemüse ist gesund.,Legumes são saudáveis.,gue-mü-ze,1
+Restaurant,restaurante,das,Restaurants,noun,cidade,A1,Das Restaurant ist offen.,O restaurante está aberto.,res-to-ran,1
+Preis,preço,der,Preise,noun,compras,A1,Der Preis ist gut.,O preço é bom.,prais,1
+kaufen,comprar,,,verb,compras,A1,Ich kaufe Brot.,Eu compro pão.,káu-fen,1
+bezahlen,pagar,,,verb,compras,A1,Ich bezahle mit Karte.,Eu pago com cartão.,be-tsá-len,2
+Euro,euro,der,Euro,noun,compras,A1,Das kostet zehn Euro.,Isso custa dez euros.,ói-ro,1
+eins,um,,,number,números,A1,Eins plus eins ist zwei.,Um mais um é dois.,ains,1
+zwei,dois,,,number,números,A1,Ich habe zwei Brüder.,Eu tenho dois irmãos.,tsvai,1
+drei,três,,,number,números,A1,Drei Kaffee bitte.,Três cafés por favor.,drai,1
+vier,quatro,,,number,números,A1,Ich wohne hier seit vier Jahren.,Moro aqui há quatro anos.,fia,1
+fünf,cinco,,,number,números,A1,Fünf Euro bitte.,Cinco euros por favor.,fünf,1
+sechs,seis,,,number,números,A1,Sechs Tage sind viel.,Seis dias são muitos.,zeks,1
+sieben,sete,,,number,números,A1,Sieben Uhr ist früh.,Sete horas é cedo.,zí-ben,1
+acht,oito,,,number,números,A1,Ich komme um acht Uhr.,Venho às oito horas.,acht,1
+neun,nove,,,number,números,A1,Neun ist eine Zahl.,Nove é um número.,nóin,1
+zehn,dez,,,number,números,A1,Das kostet zehn Euro.,Isso custa dez euros.,tsein,1
+Haus,casa,das,Häuser,noun,casa,A1,Das Haus ist groß.,A casa é grande.,haus,1
+Wohnung,apartamento,die,Wohnungen,noun,casa,A1,Die Wohnung ist klein.,O apartamento é pequeno.,vó-nung,1
+Zimmer,quarto,das,Zimmer,noun,casa,A1,Das Zimmer ist hell.,O quarto é claro.,tsí-mer,1
+Küche,cozinha,die,Küchen,noun,casa,A1,Die Küche ist sauber.,A cozinha está limpa.,kü-che,1
+Bad,casa de banho,das,Bäder,noun,casa,A1,Das Bad ist frei.,A casa de banho está livre.,bat,1
+Tisch,mesa,der,Tische,noun,casa,A1,Der Tisch ist rund.,A mesa é redonda.,tish,1
+Stuhl,cadeira,der,Stühle,noun,casa,A1,Der Stuhl ist neu.,A cadeira é nova.,shtul,1
+Bett,cama,das,Betten,noun,casa,A1,Das Bett ist bequem.,A cama é confortável.,bet,1
+Tür,porta,die,Türen,noun,casa,A1,Die Tür ist offen.,A porta está aberta.,tür,1
+Fenster,janela,das,Fenster,noun,casa,A1,Das Fenster ist groß.,A janela é grande.,féns-ter,1
+Stadt,cidade,die,Städte,noun,cidade,A1,Die Stadt ist schön.,A cidade é bonita.,shtat,1
+Straße,rua,die,Straßen,noun,cidade,A1,Die Straße ist lang.,A rua é comprida.,shtrá-se,1
+Bahnhof,estação de comboios,der,Bahnhöfe,noun,transporte,A1,Ich gehe zum Bahnhof.,Eu vou para a estação.,bán-hof,1
+Bus,autocarro,der,Busse,noun,transporte,A1,Der Bus kommt spät.,O autocarro chega tarde.,bus,1
+Zug,comboio,der,Züge,noun,transporte,A1,Der Zug ist schnell.,O comboio é rápido.,tsug,1
+Auto,carro,das,Autos,noun,transporte,A1,Das Auto ist rot.,O carro é vermelho.,áu-to,1
+Fahrrad,bicicleta,das,Fahrräder,noun,transporte,A1,Das Fahrrad ist alt.,A bicicleta é antiga.,fá-rat,2
+links,esquerda,,,adverb,direções,A1,Gehen Sie links.,Vá à esquerda.,links,1
+rechts,direita,,,adverb,direções,A1,Gehen Sie rechts.,Vá à direita.,rechts,1
+geradeaus,em frente,,,adverb,direções,A1,Gehen Sie geradeaus.,Siga em frente.,gue-rá-de-aus,1
+heute,hoje,,,adverb,tempo,A1,Heute lerne ich.,Hoje estudo.,hói-te,1
+morgen,amanhã,,,adverb,tempo,A1,Morgen arbeite ich.,Amanhã trabalho.,mór-guen,1
+gestern,ontem,,,adverb,tempo,A1,Gestern war ich zu Hause.,Ontem estive em casa.,gués-tern,1
+Montag,segunda-feira,der,Montage,noun,calendário,A1,Montag habe ich Zeit.,Segunda-feira tenho tempo.,món-tag,1
+Dienstag,terça-feira,der,Dienstage,noun,calendário,A1,Dienstag arbeite ich.,Terça-feira trabalho.,díns-tag,1
+Mittwoch,quarta-feira,der,Mittwoche,noun,calendário,A1,Mittwoch lerne ich Deutsch.,Quarta-feira estudo alemão.,mít-voch,1
+Donnerstag,quinta-feira,der,Donnerstage,noun,calendário,A1,Donnerstag ist gut.,Quinta-feira é bom.,dó-nerstag,1
+Freitag,sexta-feira,der,Freitage,noun,calendário,A1,Freitag gehe ich aus.,Sexta-feira saio.,frai-tag,1
+Samstag,sábado,der,Samstage,noun,calendário,A1,Samstag schlafe ich lange.,Sábado durmo até tarde.,zám-stag,1
+Sonntag,domingo,der,Sonntage,noun,calendário,A1,Sonntag ist frei.,Domingo é livre.,zón-tag,1
+Uhr,hora/relógio,die,Uhren,noun,tempo,A1,Es ist acht Uhr.,São oito horas.,ur,1
+Zeit,tempo,die,Zeiten,noun,tempo,A1,Ich habe Zeit.,Tenho tempo.,tsait,1
+früh,cedo,,,adjective,tempo,A1,Ich komme früh.,Venho cedo.,frü,1
+spät,tarde,,,adjective,tempo,A1,Der Bus kommt spät.,O autocarro chega tarde.,shpêt,1
+Kleidung,roupa,die,,noun,roupa,A1,Die Kleidung ist neu.,A roupa é nova.,klai-dung,2
+Hemd,camisa,das,Hemden,noun,roupa,A1,Das Hemd ist weiß.,A camisa é branca.,hemt,1
+Hose,calças,die,Hosen,noun,roupa,A1,Die Hose ist blau.,As calças são azuis.,hô-ze,1
+Schuh,sapato,der,Schuhe,noun,roupa,A1,Der Schuh ist schwarz.,O sapato é preto.,shu,1
+Jacke,casaco,die,Jacken,noun,roupa,A1,Die Jacke ist warm.,O casaco é quente.,iá-ke,1
+Wetter,tempo meteorológico,das,,noun,tempo,A1,Das Wetter ist gut.,O tempo está bom.,vé-ter,1
+Sonne,sol,die,Sonnen,noun,tempo,A1,Die Sonne scheint.,O sol brilha.,zó-ne,1
+Regen,chuva,der,,noun,tempo,A1,Der Regen ist stark.,A chuva é forte.,rê-guen,1
+kalt,frio,,,adjective,tempo,A1,Es ist kalt.,Está frio.,kalt,1
+warm,quente,,,adjective,tempo,A1,Es ist warm.,Está quente.,varm,1
+krank,doente,,,adjective,saúde,A1,Ich bin krank.,Estou doente.,krank,1
+gesund,saudável,,,adjective,saúde,A1,Ich bin gesund.,Estou saudável.,gue-zunt,1
+Kopf,cabeça,der,Köpfe,noun,saúde,A1,Mein Kopf tut weh.,Dói-me a cabeça.,kopf,1
+Hand,mão,die,Hände,noun,saúde,A1,Meine Hand tut weh.,Dói-me a mão.,hant,1
+Schule,escola,die,Schulen,noun,escola,A1,Die Schule ist groß.,A escola é grande.,shú-le,1
+Buch,livro,das,Bücher,noun,escola,A1,Das Buch ist interessant.,O livro é interessante.,buch,1
+Stift,caneta,der,Stifte,noun,escola,A1,Der Stift ist blau.,A caneta é azul.,shtift,1
+Frage,pergunta,die,Fragen,noun,escola,A1,Die Frage ist einfach.,A pergunta é simples.,frá-ge,1
+Antwort,resposta,die,Antworten,noun,escola,A1,Die Antwort ist richtig.,A resposta está certa.,ánt-vort,1
+Hobby,hobby,das,Hobbys,noun,hobbies,A1,Mein Hobby ist Musik.,O meu hobby é música.,hó-bi,1
+Musik,música,die,,noun,hobbies,A1,Ich höre Musik.,Eu ouço música.,mu-zik,1
+Sport,desporto,der,,noun,hobbies,A1,Ich mache Sport.,Eu faço desporto.,shport,1
+lesen,ler,,,verb,hobbies,A1,Ich lese ein Buch.,Eu leio um livro.,lê-zen,1
+hören,ouvir,,,verb,hobbies,A1,Ich höre Musik.,Eu ouço música.,hê-ren,1
+gehen,ir,,,verb,verbos,A1,Ich gehe nach Hause.,Eu vou para casa.,gê-en,1
+machen,fazer,,,verb,verbos,A1,Ich mache Kaffee.,Eu faço café.,má-chen,1
+sehen,ver,,,verb,verbos,A1,Ich sehe das Haus.,Eu vejo a casa.,zê-en,1
+finden,achar/encontrar,,,verb,verbos,A1,Ich finde das gut.,Eu acho isso bom.,fín-den,1
+brauchen,precisar,,,verb,verbos,A1,Ich brauche Hilfe.,Eu preciso de ajuda.,bráu-chen,1
+möchten,gostaria,,,modal,verbos,A1,Ich möchte Wasser.,Eu gostaria de água.,möch-ten,2
+können,poder/conseguir,,,modal,verbos,A1,Ich kann Deutsch sprechen.,Eu consigo falar alemão.,kön-nen,2
+müssen,ter de,,,modal,verbos,A1,Ich muss arbeiten.,Eu tenho de trabalhar.,mü-sen,2
+wollen,querer,,,modal,verbos,A1,Ich will lernen.,Eu quero aprender.,vó-len,2
+klein,pequeno,,,adjective,adjetivos,A1,Das Zimmer ist klein.,O quarto é pequeno.,klain,1
+groß,grande,,,adjective,adjetivos,A1,Das Haus ist groß.,A casa é grande.,gros,1
+gut,bom,,,adjective,adjetivos,A1,Der Kaffee ist gut.,O café é bom.,gut,1
+schlecht,mau,,,adjective,adjetivos,A1,Das ist schlecht.,Isso é mau.,shlecht,1
+schön,bonito,,,adjective,adjetivos,A1,Die Stadt ist schön.,A cidade é bonita.,shön,1
+neu,novo,,,adjective,adjetivos,A1,Das Auto ist neu.,O carro é novo.,noi,1
+alt,velho/antigo,,,adjective,adjetivos,A1,Der Stuhl ist alt.,A cadeira é antiga.,alt,1
+teuer,caro,,,adjective,compras,A1,Das Fleisch ist teuer.,A carne é cara.,tói-er,1
+billig,barato,,,adjective,compras,A1,Das Brot ist billig.,O pão é barato.,bí-lig,1
+schnell,rápido,,,adjective,adjetivos,A1,Der Zug ist schnell.,O comboio é rápido.,shnel,1
+langsam,lento,,,adjective,adjetivos,A1,Der Bus ist langsam.,O autocarro é lento.,láng-zam,1
+in,em,,,preposition,preposições,A1,Ich wohne in Braga.,Eu moro em Braga.,in,1
+aus,de origem,,,preposition,preposições,A1,Ich komme aus Portugal.,Eu venho de Portugal.,aus,1
+nach,para,,,preposition,preposições,A1,Ich gehe nach Hause.,Eu vou para casa.,nach,1
+mit,com,,,preposition,preposições,A1,Ich bezahle mit Karte.,Eu pago com cartão.,mit,1
+für,para,,,preposition,preposições,A1,Das ist für dich.,Isto é para ti.,für,1
+ohne,sem,,,preposition,preposições,A1,Kaffee ohne Zucker bitte.,Café sem açúcar por favor.,ô-ne,1
+auf,em cima de,,,preposition,preposições,A1,Das Buch liegt auf dem Tisch.,O livro está em cima da mesa.,auf,2
+unter,debaixo de,,,preposition,preposições,A1,Die Tasche ist unter dem Tisch.,A mala está debaixo da mesa.,ún-ter,2
+wer,quem,,,question,perguntas,A1,Wer bist du?,Quem és tu?,vêr,1
+was,o quê,,,question,perguntas,A1,Was ist das?,O que é isto?,vas,1
+wo,onde,,,question,perguntas,A1,Wo wohnst du?,Onde moras?,vô,1
+woher,de onde,,,question,perguntas,A1,Woher kommst du?,De onde vens?,vo-hêr,1
+wann,quando,,,question,perguntas,A1,Wann kommst du?,Quando vens?,van,1
+wie,como,,,question,perguntas,A1,Wie heißt du?,Como te chamas?,vi,1
+warum,porquê,,,question,perguntas,A1,Warum lernst du Deutsch?,Porque aprendes alemão?,va-rum,2
+ja,sim,,,adverb,base,A1,Ja ich komme.,Sim eu venho.,ia,1
+nein,não,,,adverb,base,A1,Nein danke.,Não obrigado.,nain,1
+nicht,não,,,particle,negação,A1,Ich komme nicht.,Eu não venho.,nicht,1
+kein,nenhum/não um,,keine,article,negação,A1,Ich habe kein Auto.,Eu não tenho carro.,kain,1
+mein,meu,,,possessive,possessivos,A1,Mein Name ist Carlos.,O meu nome é Carlos.,main,1
+dein,teu,,,possessive,possessivos,A1,Dein Haus ist schön.,A tua casa é bonita.,dain,1
+sein,seu dele,,,possessive,possessivos,A1,Sein Vater arbeitet.,O pai dele trabalha.,zain,1
+ihr,seu dela,,,possessive,possessivos,A1,Ihr Bruder lernt.,O irmão dela estuda.,ia,1
+unser,nosso,,,possessive,possessivos,A1,Unser Haus ist klein.,A nossa casa é pequena.,ún-zer,1
+euer,vosso,,,possessive,possessivos,A1,Euer Auto ist neu.,O vosso carro é novo.,ói-er,2
+Hilfe,ajuda,die,,noun,base,A1,Ich brauche Hilfe.,Eu preciso de ajuda.,híl-fe,1
+Karte,cartão/mapa,die,Karten,noun,compras,A1,Ich bezahle mit Karte.,Eu pago com cartão.,kár-te,1
+Zucker,açúcar,der,,noun,comida,A1,Kaffee ohne Zucker bitte.,Café sem açúcar por favor.,tsú-ker,1
+Salz,sal,das,,noun,comida,A1,Das Salz ist auf dem Tisch.,O sal está na mesa.,zalts,1
+Termin,marcação,der,Termine,noun,tempo,A1,Ich habe einen Termin.,Tenho uma marcação.,ter-mín,2
+Arbeit,trabalho,die,Arbeiten,noun,profissões,A1,Meine Arbeit ist interessant.,O meu trabalho é interessante.,ár-bait,1
+Feierabend,fim do trabalho,der,,noun,tempo,A1,Ich habe Feierabend.,Terminei o trabalho.,fai-er-á-bent,2
+Geburtstag,aniversário,der,Geburtstage,noun,pessoal,A1,Mein Geburtstag ist im Mai.,O meu aniversário é em maio.,gue-burts-tag,2
+Mai,maio,der,,noun,calendário,A1,Ich habe im Mai Geburtstag.,Faço anos em maio.,mai,1
+Januar,janeiro,der,,noun,calendário,A1,Januar ist kalt.,Janeiro é frio.,iá-nu-ar,1
+Februar,fevereiro,der,,noun,calendário,A1,Februar ist kurz.,Fevereiro é curto.,fê-bru-ar,1
+März,março,der,,noun,calendário,A1,März ist schön.,Março é bonito.,merts,1
+April,abril,der,,noun,calendário,A1,April hat Regen.,Abril tem chuva.,a-príl,1
+Juni,junho,der,,noun,calendário,A1,Juni ist warm.,Junho é quente.,iú-ni,1
+Juli,julho,der,,noun,calendário,A1,Juli ist heiß.,Julho é quente.,iú-li,1
+August,agosto,der,,noun,calendário,A1,August ist frei.,Agosto é livre.,au-gúst,1
+September,setembro,der,,noun,calendário,A1,September ist gut.,Setembro é bom.,zep-tém-ber,1
+Oktober,outubro,der,,noun,calendário,A1,Oktober ist kühl.,Outubro é fresco.,ok-tó-ber,1
+November,novembro,der,,noun,calendário,A1,November ist kalt.,Novembro é frio.,no-vém-ber,1
+Dezember,dezembro,der,,noun,calendário,A1,Dezember ist Winter.,Dezembro é inverno.,de-tsém-ber,1
+rot,vermelho,,,adjective,cores,A1,Das Auto ist rot.,O carro é vermelho.,rot,1
+blau,azul,,,adjective,cores,A1,Die Hose ist blau.,As calças são azuis.,blau,1
+grün,verde,,,adjective,cores,A1,Der Apfel ist grün.,A maçã é verde.,grün,1
+gelb,amarelo,,,adjective,cores,A1,Die Banane ist gelb.,A banana é amarela.,guelp,1
+weiß,branco,,,adjective,cores,A1,Das Hemd ist weiß.,A camisa é branca.,vais,1
+schwarz,preto,,,adjective,cores,A1,Der Schuh ist schwarz.,O sapato é preto.,shvarts,1
+braun,castanho,,,adjective,cores,A1,Der Tisch ist braun.,A mesa é castanha.,braun,1
+orange,laranja,,,adjective,cores,A1,Die Jacke ist orange.,O casaco é laranja.,o-ran-je,1
+grau,cinzento,,,adjective,cores,A1,Das Haus ist grau.,A casa é cinzenta.,grau,1
+rosa,cor-de-rosa,,,adjective,cores,A1,Die Tasche ist rosa.,A mala é cor-de-rosa.,ró-za,1
+Tasche,mala,die,Taschen,noun,roupa,A1,Die Tasche ist neu.,A mala é nova.,tá-she,1
+Computer,computador,der,Computer,noun,escola,A1,Der Computer ist schnell.,O computador é rápido.,kom-piú-ter,1
+Handy,telemóvel,das,Handys,noun,base,A1,Mein Handy ist neu.,O meu telemóvel é novo.,hén-di,1
+E-Mail,email,die,E-Mails,noun,escola,A1,Ich schreibe eine E-Mail.,Eu escrevo um email.,í-meil,1
+schreiben,escrever,,,verb,escola,A1,Ich schreibe eine E-Mail.,Eu escrevo um email.,shrai-ben,1
+öffnen,abrir,,,verb,base,A1,Ich öffne die Tür.,Eu abro a porta.,öf-nen,1
+schließen,fechar,,,verb,base,A1,Ich schließe das Fenster.,Eu fecho a janela.,shlí-sen,1
+fragen,perguntar,,,verb,perguntas,A1,Ich frage den Lehrer.,Eu pergunto ao professor.,frá-guen,1
+antworten,responder,,,verb,perguntas,A1,Ich antworte auf Deutsch.,Eu respondo em alemão.,ánt-vor-ten,1
+verstehen,compreender,,,verb,base,A1,Ich verstehe Deutsch.,Eu compreendo alemão.,fer-shtê-en,1
+lieben,amar/gostar muito,,,verb,base,A1,Ich liebe Musik.,Eu adoro música.,lí-ben,1
+heißen,chamar-se,,,verb,pessoal,A1,Ich heiße Carlos.,Eu chamo-me Carlos.,hai-sen,1
+leben,viver,,,verb,pessoal,A1,Ich lebe in Portugal.,Eu vivo em Portugal.,lê-ben,1
+liegen,estar deitado/situado,,,verb,cidade,A1,Braga liegt in Portugal.,Braga fica em Portugal.,lí-guen,2
+stehen,estar de pé,,,verb,base,A1,Der Stuhl steht hier.,A cadeira está aqui.,shtê-en,2
+sitzen,estar sentado,,,verb,base,A1,Ich sitze hier.,Eu estou sentado aqui.,zí-tsen,1
+kochen,cozinhar,,,verb,comida,A1,Ich koche Suppe.,Eu cozinho sopa.,kó-chen,1
+spielen,jogar/brincar,,,verb,hobbies,A1,Ich spiele Fußball.,Eu jogo futebol.,shpí-len,1
+Fußball,futebol,der,,noun,hobbies,A1,Ich spiele Fußball.,Eu jogo futebol.,fús-bal,1
+Kino,cinema,das,Kinos,noun,hobbies,A1,Ich gehe ins Kino.,Eu vou ao cinema.,kí-no,1
+Park,parque,der,Parks,noun,cidade,A1,Der Park ist schön.,O parque é bonito.,park,1
+Apotheke,farmácia,die,Apotheken,noun,cidade,A1,Die Apotheke ist links.,A farmácia é à esquerda.,a-po-tê-ke,2
+Supermarkt,supermercado,der,Supermärkte,noun,cidade,A1,Der Supermarkt ist rechts.,O supermercado é à direita.,zú-permarkt,1
+Hotel,hotel,das,Hotels,noun,cidade,A1,Das Hotel ist teuer.,O hotel é caro.,ho-tel,1
+Bank,banco,die,Banken,noun,cidade,A1,Die Bank ist offen.,O banco está aberto.,bank,1
+Post,correios,die,,noun,cidade,A1,Die Post ist geschlossen.,Os correios estão fechados.,post,1
+Krankenhaus,hospital,das,Krankenhäuser,noun,saúde,A1,Das Krankenhaus ist groß.,O hospital é grande.,kran-ken-haus,2
+Morgen,manhã,der,,noun,tempo,A1,Am Morgen trinke ich Kaffee.,De manhã bebo café.,mór-guen,1
+Abend,noite,der,Abende,noun,tempo,A1,Am Abend lese ich.,À noite leio.,á-bent,1
+Nacht,noite,die,Nächte,noun,tempo,A1,Gute Nacht.,Boa noite.,nacht,1
+Mittag,meio-dia,der,,noun,tempo,A1,Am Mittag esse ich.,Ao meio-dia como.,mí-tag,1
+Frühstück,pequeno-almoço,das,,noun,comida,A1,Das Frühstück ist gut.,O pequeno-almoço é bom.,frü-shtük,1
+Mittagessen,almoço,das,,noun,comida,A1,Das Mittagessen ist warm.,O almoço está quente.,mí-tag-é-sen,1
+Abendessen,jantar,das,,noun,comida,A1,Das Abendessen ist fertig.,O jantar está pronto.,á-bent-é-sen,1
+fertig,pronto,,,adjective,base,A1,Ich bin fertig.,Estou pronto.,fér-tig,1
+müde,cansado,,,adjective,saúde,A1,Ich bin müde.,Estou cansado.,mü-de,1
+freundlich,simpático,,,adjective,pessoas,A1,Die Lehrerin ist freundlich.,A professora é simpática.,froint-lich,1
+einfach,simples,,,adjective,escola,A1,Die Frage ist einfach.,A pergunta é simples.,ain-fach,1
+schwer,difícil/pesado,,,adjective,escola,A1,Deutsch ist schwer.,Alemão é difícil.,shvêr,1
+richtig,certo,,,adjective,escola,A1,Die Antwort ist richtig.,A resposta está certa.,rích-tig,1
+falsch,errado,,,adjective,escola,A1,Das ist falsch.,Isso está errado.,falsh,1

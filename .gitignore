@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+data/deutsch_a1.db
+data/audio_tmp/
+*.log
+.streamlit/secrets.toml

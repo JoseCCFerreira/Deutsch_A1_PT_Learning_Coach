@@ -1,0 +1,53 @@
+modules:
+  - module: "Módulo 1"
+    title_pt: "Primeiros passos"
+    lessons:
+      - "Alfabeto alemão"
+      - "Pronúncia básica"
+      - "Cumprimentos"
+      - "Apresentar-se"
+  - module: "Módulo 2"
+    title_pt: "Eu e os outros"
+    lessons:
+      - "Nome e idade"
+      - "Origem e nacionalidade"
+      - "Onde vivo"
+      - "Perguntas simples"
+  - module: "Módulo 3"
+    title_pt: "Frases simples"
+    lessons:
+      - "Pronomes pessoais"
+      - "sein"
+      - "haben"
+      - "Ordem das palavras"
+  - module: "Módulo 4"
+    title_pt: "Família e trabalho"
+    lessons:
+      - "Família"
+      - "Profissões"
+      - "Possessivos"
+  - module: "Módulo 5"
+    title_pt: "Comida, compras e preços"
+    lessons:
+      - "Comida e bebida"
+      - "Números e preços"
+      - "No restaurante"
+  - module: "Módulo 6"
+    title_pt: "Cidade e transporte"
+    lessons:
+      - "Lugares na cidade"
+      - "Transportes"
+      - "Pedir direções"
+  - module: "Módulo 7"
+    title_pt: "Rotina diária"
+    lessons:
+      - "Verbos comuns"
+      - "Horas"
+      - "Verbos separáveis"
+  - module: "Módulo 8"
+    title_pt: "Revisão A1"
+    lessons:
+      - "Leitura"
+      - "Audição"
+      - "Escrita"
+      - "Fala"
