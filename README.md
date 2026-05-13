@@ -105,6 +105,16 @@ streamlit run app.py
 
 Na primeira execução, a app cria a base SQLite e carrega os ficheiros seed.
 
+## Tutorial HTML
+
+Existe um guia completo de setup e utilização em:
+
+```text
+docs/tutorial_setup_utilizacao.html
+```
+
+Inclui instalação, primeira execução, explicação das páginas, rotina de estudo, revisão espaçada, reset de progresso, testes e problemas comuns.
+
 ## Como Reiniciar Progresso
 
 Apaga a base local:

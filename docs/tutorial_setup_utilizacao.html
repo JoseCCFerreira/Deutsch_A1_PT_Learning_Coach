@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tutorial - Deutsch A1 PT Learning Coach</title>
+  <style>
+    :root {
+      --ink: #0f172a;
+      --muted: #475569;
+      --line: #cbd5e1;
+      --blue: #2563eb;
+      --green: #16a34a;
+      --red: #dc2626;
+      --amber: #f97316;
+      --panel: #ffffff;
+      --soft: #eff6ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      line-height: 1.65;
+      background: linear-gradient(135deg, #dbeafe 0%, #ffffff 42%, #dcfce7 100%);
+    }
+    header {
+      background: rgba(255,255,255,.82);
+      border-bottom: 1px solid rgba(148,163,184,.55);
+      padding: 56px 24px 30px;
+      backdrop-filter: blur(12px);
+    }
+    main, .wrap { max-width: 1120px; margin: 0 auto; }
+    main { padding: 24px; }
+    h1 {
+      margin: 0;
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+    h2 { margin-top: 42px; font-size: 1.75rem; }
+    h3 { margin-top: 26px; }
+    p { color: var(--muted); }
+    a { color: var(--blue); font-weight: 800; }
+    .subtitle { max-width: 780px; font-size: 1.15rem; color: #334155; }
+    .badge {
+      display: inline-block;
+      background: #1e293b;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 999px;
+      font-size: .85rem;
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; }
+    .card {
+      background: rgba(255,255,255,.96);
+      border: 1px solid rgba(148,163,184,.55);
+      border-radius: 12px;
+      padding: 18px;
+      box-shadow: 0 12px 26px rgba(15,23,42,.08);
+    }
+    .card strong { color: var(--blue); }
+    .note {
+      background: #fffbeb;
+      border: 1px solid #f59e0b;
+      border-left: 6px solid #f97316;
+      border-radius: 12px;
+      padding: 16px 18px;
+      color: #7c2d12;
+      margin: 18px 0;
+    }
+    .ok {
+      background: #ecfdf5;
+      border: 1px solid #86efac;
+      border-left: 6px solid #16a34a;
+      border-radius: 12px;
+      padding: 16px 18px;
+      color: #14532d;
+      margin: 18px 0;
+    }
+    pre {
+      background: #0f172a;
+      color: #e2e8f0;
+      border-radius: 12px;
+      padding: 16px;
+      overflow: auto;
+      border: 1px solid #334155;
+    }
+    code {
+      background: #0f172a;
+      color: #e2e8f0;
+      padding: 3px 7px;
+      border-radius: 6px;
+      font-size: .93rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 24px rgba(15,23,42,.06);
+    }
+    th, td { border-bottom: 1px solid var(--line); padding: 12px; text-align: left; vertical-align: top; }
+    th { background: #e0f2fe; color: #0f172a; }
+    .step {
+      counter-increment: steps;
+      position: relative;
+      padding-left: 58px;
+    }
+    .step::before {
+      content: counter(steps);
+      position: absolute;
+      left: 16px;
+      top: 18px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: var(--blue);
+      color: white;
+      display: grid;
+      place-items: center;
+      font-weight: 900;
+    }
+    .steps { counter-reset: steps; display: grid; gap: 14px; }
+    .good { color: var(--green); font-weight: 900; }
+    .bad { color: var(--red); font-weight: 900; }
+    .warn { color: var(--amber); font-weight: 900; }
+    footer { padding: 30px 24px 56px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <span class="badge">Tutorial completo</span>
+      <h1>Deutsch A1 PT Learning Coach</h1>
+      <p class="subtitle">
+        Guia prático para instalar, executar e usar a app que ensina alemão A1 a partir do zero,
+        com explicações em português europeu, exercícios, revisão espaçada e diagnóstico adaptativo.
+      </p>
+      <div class="note">
+        A app funciona localmente. Não precisas de APIs pagas. O áudio com gTTS pode precisar de internet,
+        mas o resto da aprendizagem funciona com dados locais e SQLite.
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>1. O Que Esta App Faz</h2>
+      <div class="grid">
+        <div class="card"><strong>Ensina A1 do zero</strong><p>Cumprimentos, apresentação, artigos, verbos, perguntas, comida, cidade, rotina e revisão.</p></div>
+        <div class="card"><strong>Explica em português</strong><p>A interface e as explicações são pensadas para um falante português.</p></div>
+        <div class="card"><strong>Corrige exercícios</strong><p>Mostra resposta certa, explicação e tipo de erro.</p></div>
+        <div class="card"><strong>Adapta o estudo</strong><p>Detecta tópicos fracos e recomenda o que praticar a seguir.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>2. Estrutura Do Projeto</h2>
+      <pre><code>Deutsch_A1_PT_Learning_Coach/
+├── app.py
+├── requirements.txt
+├── README.md
+├── config/
+├── data/
+├── src/
+├── pages/
+├── tests/
+└── docs/tutorial_setup_utilizacao.html</code></pre>
+      <p>
+        A app principal está em <code>app.py</code>. As páginas estão em <code>pages/</code>.
+        A lógica está em <code>src/</code>. Os dados iniciais estão em <code>data/seed_*.csv</code>.
+      </p>
+    </section>
+
+    <section>
+      <h2>3. Setup Do Zero</h2>
+      <div class="steps">
+        <div class="card step">
+          <strong>Entrar na pasta do projeto</strong>
+          <pre><code>cd /Users/carlosferreira/Projecto/Deutsch_A1_PT_Learning_Coach</code></pre>
+        </div>
+        <div class="card step">
+          <strong>Criar ambiente virtual</strong>
+          <pre><code>python3 -m venv .venv</code></pre>
+        </div>
+        <div class="card step">
+          <strong>Ativar ambiente virtual</strong>
+          <pre><code>source .venv/bin/activate</code></pre>
+        </div>
+        <div class="card step">
+          <strong>Instalar dependências</strong>
+          <pre><code>pip install -r requirements.txt</code></pre>
+        </div>
+        <div class="card step">
+          <strong>Executar a app</strong>
+          <pre><code>streamlit run app.py</code></pre>
+        </div>
+      </div>
+      <div class="ok">
+        Depois abre o endereço local mostrado pelo Streamlit. Normalmente será <code>http://localhost:8501</code>.
+        Neste momento, nesta máquina, a app foi aberta em <code>http://localhost:8503</code>.
+      </div>
+    </section>
+
+    <section>
+      <h2>4. Primeira Execução</h2>
+      <p>Na primeira vez que a app corre, ela cria automaticamente:</p>
+      <table>
+        <thead><tr><th>Item</th><th>O que faz</th></tr></thead>
+        <tbody>
+          <tr><td><code>data/deutsch_a1.db</code></td><td>Base SQLite com utilizador, progresso, exercícios, respostas, revisão e histórico.</td></tr>
+          <tr><td>Vocabulário</td><td>Carrega mais de 200 palavras A1 a partir do CSV.</td></tr>
+          <tr><td>Gramática</td><td>Carrega tópicos como <code>sein</code>, <code>haben</code>, artigos e ordem das palavras.</td></tr>
+          <tr><td>Exercícios</td><td>Garante pelo menos 80 exercícios A1.</td></tr>
+          <tr><td>Fila de revisão</td><td>Coloca palavras iniciais para revisão espaçada.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>5. Como Usar A App No Dia A Dia</h2>
+      <div class="steps">
+        <div class="card step">
+          <strong>Vai ao Início</strong>
+          <p>Vê progresso A1, palavras para rever, tópico fraco e recomendação do dia.</p>
+        </div>
+        <div class="card step">
+          <strong>Abre Aprender A1</strong>
+          <p>Segue os módulos pela ordem: primeiros passos, eu e os outros, frases simples, família, comida, cidade e rotina.</p>
+        </div>
+        <div class="card step">
+          <strong>Treina Vocabulário</strong>
+          <p>Usa os flashcards. Dá atenção aos artigos <span class="good">der</span>, <span class="warn">die</span> e <span class="good">das</span>.</p>
+        </div>
+        <div class="card step">
+          <strong>Faz Exercícios</strong>
+          <p>A app corrige e guarda os erros. É assim que o motor adaptativo aprende onde tens dificuldade.</p>
+        </div>
+        <div class="card step">
+          <strong>Faz Revisão Espaçada</strong>
+          <p>Revê as palavras vencidas. Usa os botões: Não sabia, Difícil, Médio, Fácil.</p>
+        </div>
+        <div class="card step">
+          <strong>Consulta Diagnóstico</strong>
+          <p>Vê os tópicos fracos, tipos de erro e recomendação personalizada.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>6. Explicação Das Páginas</h2>
+      <table>
+        <thead><tr><th>Página</th><th>Serve Para</th><th>Quando Usar</th></tr></thead>
+        <tbody>
+          <tr><td>Início</td><td>Resumo do estado, recomendação e progresso.</td><td>Todos os dias.</td></tr>
+          <tr><td>Aprender A1</td><td>Caminho guiado por módulos e lições.</td><td>Quando quiseres aprender matéria nova.</td></tr>
+          <tr><td>Vocabulario</td><td>Flashcards, artigos, exemplos e áudio.</td><td>10 minutos por dia.</td></tr>
+          <tr><td>Gramatica</td><td>Explicações simples em português.</td><td>Quando erras muito num tema.</td></tr>
+          <tr><td>Exercicios</td><td>Treino dinâmico com feedback imediato.</td><td>Parte principal do estudo.</td></tr>
+          <tr><td>Tradutor Inteligente</td><td>Tradução + explicação + palavra por palavra.</td><td>Quando quiseres perceber uma frase.</td></tr>
+          <tr><td>Ouvir e Falar</td><td>Áudio, repetição e feedback por texto.</td><td>Para pronúncia e compreensão.</td></tr>
+          <tr><td>Escrita</td><td>Treino de frases e pequenos textos A1.</td><td>2 ou 3 vezes por semana.</td></tr>
+          <tr><td>Revisao Espacada</td><td>Revisão SM-2 de palavras difíceis.</td><td>Antes de aprender matéria nova.</td></tr>
+          <tr><td>Diagnostico</td><td>Erros, tópicos fracos e plano recomendado.</td><td>Quando sentires que estás bloqueado.</td></tr>
+          <tr><td>Progresso</td><td>Dashboard de evolução e checklist A1.</td><td>Semanalmente.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>7. Como Interpretar O Progresso</h2>
+      <div class="grid">
+        <div class="card"><strong>Progresso A1</strong><p>Estimativa geral baseada em precisão, vocabulário aprendido e quantidade de prática.</p></div>
+        <div class="card"><strong>Precisão</strong><p>Percentagem de exercícios certos. Acima de 80% é bom sinal.</p></div>
+        <div class="card"><strong>Tópico fraco</strong><p>Área com menor mastery score. Deve ser a prioridade.</p></div>
+        <div class="card"><strong>Revisões hoje</strong><p>Itens vencidos na revisão espaçada. Faz isto antes de matéria nova.</p></div>
+      </div>
+      <div class="note">
+        O objectivo não é ter 100% todos os dias. O objectivo é errar, corrigir, repetir e reduzir os mesmos erros ao longo do tempo.
+      </div>
+    </section>
+
+    <section>
+      <h2>8. Como Funciona A Revisão Espaçada</h2>
+      <p>A revisão usa uma versão simples do algoritmo SM-2:</p>
+      <table>
+        <thead><tr><th>Botão</th><th>Significado</th><th>O que acontece</th></tr></thead>
+        <tbody>
+          <tr><td>Não sabia</td><td>Falhaste ou não te lembravas.</td><td>Volta muito em breve.</td></tr>
+          <tr><td>Difícil</td><td>Acertaste com esforço.</td><td>Intervalo curto.</td></tr>
+          <tr><td>Médio</td><td>Acertaste de forma aceitável.</td><td>Intervalo médio.</td></tr>
+          <tr><td>Fácil</td><td>Sabias bem.</td><td>Intervalo maior.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>9. Como Adicionar Vocabulário</h2>
+      <p>Edita o ficheiro:</p>
+      <pre><code>data/seed_vocabulary_a1.csv</code></pre>
+      <p>Formato:</p>
+      <pre><code>german,portuguese,article,plural,word_type,topic,level,example_de,example_pt,pronunciation_hint,difficulty</code></pre>
+      <div class="card">
+        <strong>Exemplo</strong>
+        <pre><code>Bahnhof,estação de comboios,der,Bahnhöfe,noun,transporte,A1,Ich gehe zum Bahnhof.,Eu vou para a estação.,bán-hof,1</code></pre>
+      </div>
+      <p>
+        Se a base SQLite já existir, apaga <code>data/deutsch_a1.db</code> para recarregar os seeds do zero.
+      </p>
+    </section>
+
+    <section>
+      <h2>10. Como Adicionar Exercícios</h2>
+      <p>Edita:</p>
+      <pre><code>data/seed_exercises_a1.csv</code></pre>
+      <p>Tipos úteis:</p>
+      <ul>
+        <li><code>multiple_choice</code></li>
+        <li><code>fill_blank</code></li>
+        <li><code>translation_de_pt</code></li>
+        <li><code>translation_pt_de</code></li>
+        <li><code>article_choice</code></li>
+        <li><code>verb_conjugation</code></li>
+        <li><code>order_words</code></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>11. Reset Do Progresso</h2>
+      <p>Para recomeçar do zero:</p>
+      <pre><code>rm data/deutsch_a1.db
+streamlit run app.py</code></pre>
+      <div class="note">
+        Isto apaga respostas, mastery score, revisão e histórico. Os ficheiros seed continuam guardados.
+      </div>
+    </section>
+
+    <section>
+      <h2>12. Testes</h2>
+      <p>Para validar a app:</p>
+      <pre><code>source .venv/bin/activate
+pytest</code></pre>
+      <p>Os testes verificam vocabulário, gramática, revisão espaçada, correcção, motor adaptativo e tradução fallback.</p>
+    </section>
+
+    <section>
+      <h2>13. Problemas Comuns</h2>
+      <table>
+        <thead><tr><th>Problema</th><th>Solução</th></tr></thead>
+        <tbody>
+          <tr><td>A app não abre</td><td>Confirma que estás na pasta certa e corre <code>streamlit run app.py</code>.</td></tr>
+          <tr><td>Porta ocupada</td><td>Usa <code>streamlit run app.py --server.port 8503</code>.</td></tr>
+          <tr><td>Áudio não funciona</td><td>O gTTS pode precisar de internet. Continua a usar texto e pronúncia escrita.</td></tr>
+          <tr><td>Quero recarregar seeds</td><td>Apaga <code>data/deutsch_a1.db</code> e executa de novo.</td></tr>
+          <tr><td>Erro em dependências</td><td>Reativa a venv e corre <code>pip install -r requirements.txt</code>.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>14. Rotina Recomendada De 20 Minutos</h2>
+      <div class="grid">
+        <div class="card"><strong>5 min</strong><p>Revisão espaçada.</p></div>
+        <div class="card"><strong>5 min</strong><p>Vocabulário com artigos.</p></div>
+        <div class="card"><strong>7 min</strong><p>Exercícios adaptativos.</p></div>
+        <div class="card"><strong>3 min</strong><p>Ver diagnóstico e escolher próximo foco.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      Tutorial criado para o projeto Deutsch A1 PT Learning Coach. Aprende devagar, pratica todos os dias, e não declares guerra aos artigos alemães no primeiro encontro.
+    </div>
+  </footer>
+</body>
+</html>
