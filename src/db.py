@@ -11,8 +11,10 @@ from .utils import DB_PATH, ensure_dirs, now_iso
 
 def connect(path: str | Path = DB_PATH) -> sqlite3.Connection:
     ensure_dirs()
-    conn = sqlite3.connect(path)
+    conn = sqlite3.connect(path, check_same_thread=False, timeout=30)
     conn.row_factory = sqlite3.Row
+    conn.execute("PRAGMA journal_mode=WAL")
+    conn.execute("PRAGMA busy_timeout=30000")
     return conn
 
 

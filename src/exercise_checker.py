@@ -52,10 +52,10 @@ def save_attempt(
         """,
         (
             user_id,
-            exercise["exercise_id"],
+            int(exercise["exercise_id"]),
             user_answer,
             exercise["correct_answer"],
-            result["is_correct"],
+            int(result["is_correct"]),
             result["error_type"],
             exercise.get("grammar_topic", ""),
             exercise.get("vocabulary_topic", ""),
@@ -63,8 +63,8 @@ def save_attempt(
             now_iso(),
         ),
     )
-    update_mastery(conn, user_id, "grammar", exercise.get("grammar_topic", ""), result["is_correct"], seconds)
-    update_mastery(conn, user_id, "vocabulary", exercise.get("vocabulary_topic", ""), result["is_correct"], seconds)
+    update_mastery(conn, user_id, "grammar", exercise.get("grammar_topic", ""), bool(result["is_correct"]), seconds)
+    update_mastery(conn, user_id, "vocabulary", exercise.get("vocabulary_topic", ""), bool(result["is_correct"]), seconds)
     conn.commit()
     return result
 

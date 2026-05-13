@@ -11,29 +11,47 @@ def setup_page(title: str = "Deutsch A1 PT Learning Coach") -> None:
     st.markdown(
         """
         <style>
-        .stApp { background: linear-gradient(135deg,#eff6ff 0%,#ffffff 46%,#ecfdf5 100%); color:#0f172a; }
-        section[data-testid="stSidebar"] { background:#111827; }
+        .stApp { background: linear-gradient(135deg,#dbeafe 0%,#f8fafc 42%,#dcfce7 100%); color:#0f172a; }
+        section[data-testid="stSidebar"] { background:#0f172a; border-right:1px solid rgba(255,255,255,.16); }
         section[data-testid="stSidebar"] * { color:#f9fafb !important; }
-        h1,h2,h3 { color:#0f172a; letter-spacing:0; }
+        h1,h2,h3,h4 { color:#0f172a; letter-spacing:0; font-weight:800; }
+        p, li, label, span, div { letter-spacing:0; }
         div[data-testid="stMetric"] {
             background:#ffffff;
-            border:1px solid #cbd5e1;
-            border-left:5px solid #2563eb;
+            border:1px solid #94a3b8;
+            border-left:6px solid #1d4ed8;
             border-radius:10px;
-            padding:14px;
-            box-shadow:0 8px 20px rgba(15,23,42,.08);
+            padding:16px;
+            box-shadow:0 10px 24px rgba(15,23,42,.12);
         }
+        div[data-testid="stMetric"] label,
+        div[data-testid="stMetric"] [data-testid="stMetricValue"] { color:#0f172a !important; }
         .coach-card {
             background:#ffffff;
-            border:1px solid #cbd5e1;
+            border:1px solid #94a3b8;
             border-radius:10px;
             padding:16px;
             margin-bottom:12px;
-            box-shadow:0 8px 20px rgba(15,23,42,.07);
+            box-shadow:0 10px 24px rgba(15,23,42,.11);
+            color:#0f172a;
+        }
+        .coach-card p, .coach-card li { color:#334155; }
+        .stAlert { border-radius:10px; }
+        div[data-testid="stDataFrame"] {
+            border:1px solid #94a3b8;
+            border-radius:10px;
+            overflow:hidden;
+        }
+        code {
+            background:#e2e8f0 !important;
+            color:#0f172a !important;
+            border:1px solid #94a3b8;
+            border-radius:6px;
+            padding:2px 6px;
         }
         .ok { color:#16a34a; font-weight:800; }
         .bad { color:#dc2626; font-weight:800; }
-        .warn { color:#f97316; font-weight:800; }
+        .warn { color:#b45309; font-weight:800; }
         .article { display:inline-block; min-width:46px; text-align:center; color:white; border-radius:6px; padding:4px 8px; font-weight:900; }
         .der { background:#2563eb; } .die { background:#db2777; } .das { background:#16a34a; }
         </style>
@@ -42,7 +60,6 @@ def setup_page(title: str = "Deutsch A1 PT Learning Coach") -> None:
     )
 
 
-@st.cache_resource
 def get_conn():
     conn = connect()
     create_schema(conn)
